@@ -8,11 +8,12 @@
     height: 4.183rem;
     display: flex; 
     justify-content: space-evenly; 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #121D33;
     /* background-color: blue; */
 }
 .abovenavpart{
+    width: 100vw;
     height: 42px;
     background-image: linear-gradient(to left,#0F182C
 ,#0B3352,#1267AF,#1759DA,#1267AF,#0B3352,#0F182C
@@ -26,10 +27,11 @@
 #rightpart{
     /* background-color:bisque; */
     width: 60%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin-left: 114px;
     /* background-color: aqua; */
 }
 #leftpart{
@@ -43,7 +45,12 @@
 #brllogodiv{
     width: 227px;
     height: 70px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* text-align: center; */
 }
 #rightpart p{
     font-family: inter;
@@ -54,17 +61,48 @@
 #searchdiv{
     width: 44px;
     height: 44px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #logindiv{
-    width: 85.16px;
+    /* width: 73.66px;
+    height: 44px; */
+    /* border: 1px solid black; */
+    /* border: 1px solid white;
+    border-radius: 8px; */
+    /* border: 1px solid white; */
+    width: 73.66px;
     height: 44px;
-    border: 1px solid black;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    /* justify-self:center; */
+    align-items: center;
+    padding: 11px, 17px, 12px, 15px;
+}
+#logindiv p{
+    margin-left: 15px;
+}
+
+#logindiv button{
+    /* width: 73.66px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: none; */
 }
 #signupdiv{
     width: 85.16px;
     height: 44px;
-    border: 1px solid black;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+}
+#signupdiv button{
+    width: 85.16px;
+    height: 44px;
+    border-radius: 8px;
 }
 #sectionpart{
     width: 100vw;
@@ -91,6 +129,14 @@
     border: none;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 16px;
+    /* color: white; */
+}
+/* .searchinput placeholder{
+    color: white;
+} */
+::placeholder{
+    color: white;
 }
 #para{
     margin-top:26px;
@@ -138,25 +184,48 @@
     display: flex;
     justify-content: space-evenly;
 }
+#brllogodiv img{
+    width: 160px;
+    height: 49px;
+}
 .box{
     width: 232px;
     height: 143px;
     border-radius: 8px;
-    background-color: #1267AF;
+    /* background-color: #1267AF; */
+    box-shadow: 3px 3px 3px 3px #677185;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
-#doller{
+.amount{
+    margin-left: 10px;
+    /* margin-right: 15px; */
+}
+.percentage{
+    margin-left: 20px;
+}
+/* #doller{
     background-color: #F7931A;
     text-align: center;
     padding: 3%;
-}
+} */
 .symbol{
     height: 40px;
     width: 40px;
     border-radius: 100%;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.buy{
+    margin-left:66px;
+    margin-right: 15px;
 }
 .buy_trade{
     display: flex;
-    
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 15px;
 }
 .buy{
     width: 41.42px;
@@ -169,4 +238,19 @@
     height: 28px;
     background-color: #00994C;
     border-radius: 4px;
+}
+#sectionpart{
+    background-image: url('./assets/Clip\ path\ group.png');
+}
+#views{
+    position: absolute;
+    /* top: 135.39px; */
+    /* bottom: 148.61px; */
+}
+.buy_trade p{
+    display: inline;
+    
+}
+.percentage{
+    color: red;
 }
