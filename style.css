@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100vw;
+    height: 4.183rem;
+    display: flex; 
+    justify-content: space-evenly; 
+    border: 1px solid black;
+    background-color: #121D33;
+    /* background-color: blue; */
+}
+.abovenavpart{
+    height: 42px;
+    background-image: linear-gradient(to left,#0F182C
+,#0B3352,#1267AF,#1759DA,#1267AF,#0B3352,#0F182C
+);
+}
+.abovenavpart p{
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+}
+#rightpart{
+    /* background-color:bisque; */
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#leftpart{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: bisque; */
+    width: 20%;
+}
+#brllogodiv{
+    width: 227px;
+    height: 70px;
+    border: 1px solid black;
+}
+#rightpart p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+#searchdiv{
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+}
+#logindiv{
+    width: 85.16px;
+    height: 44px;
+    border: 1px solid black;
+}
+#signupdiv{
+    width: 85.16px;
+    height: 44px;
+    border: 1px solid black;
+}
+#sectionpart{
+    width: 100vw;
+    height: 600px;
+    background-image: linear-gradient(to top ,#FF0095,#FFCDFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+#heading h1{
+    font-family: inter;
+    /* font-style:; */
+    font-size: 48px;
+    color: white;
+    margin-top: 163px;
+    margin-bottom: 0;
+
+}
+.searchinput{
+    width: 387px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#para{
+    margin-top:26px;
+    margin-bottom: 35px;
+}
+#para p{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+#maincontent{
+    width: 747px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    /* background-image:linear-gradient(to left,#0C6CF2,#7349F2) ; */
+    height: 100%;
+}
+.but_signupmain{
+    width:101.16px ;
+    height:48px ;
+    border-radius:8px ;
+    border: none;
+}
+#footerpart{
+    height: 305px;
+    width: 100VW;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+#fourboxes{
+    /* position: absolute; */
+    /* top:5rem; */
+    /* margin-top: -3rem; */
+    width: 80vw;
+    /* z-index: 2; */
+    
+    margin-top: -1.688rem;
+    height: 144px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 232px;
+    height: 143px;
+    border-radius: 8px;
+    background-color: #1267AF;
+}
+#doller{
+    background-color: #F7931A;
+    text-align: center;
+    padding: 3%;
+}
+.symbol{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.buy_trade{
+    display: flex;
+    
+}
+.buy{
+    width: 41.42px;
+    height: 28px;
+    background-color: #EFECFE;
+    border-radius: 4px;
+}
+.trade{
+    width: 41.42px;
+    height: 28px;
+    background-color: #00994C;
+    border-radius: 4px;
+}
